@@ -1,0 +1,42 @@
+<p>Thêm sản phẩm</p>
+           
+  <table class="table table-bordered">
+    	<form method="POST" action="modules/quanlysp/xuly.php" enctype="multipart/form-data">
+	      <tr>
+	        <td>Tên sản phẩm</td>
+	        <td><input type="text" name="tensanpham"></td>
+	      </tr>
+	      <tr>
+	        <td>Mã sản phẩm</td>
+	        <td><input type="text" name="masp"></td>
+	      </tr>
+	      <tr>
+	        <td>Giá sản phẩm</td>
+	        <td><input type="text" name="giasp"></td>
+	      </tr>
+	      <tr>
+	        <td>Số lượng</td>
+	        <td><input type="text" name="soluong"></td>
+	      </tr>
+	      <tr>
+	        <td>Hình ảnh</td>
+	        <td><input type="file" name="hinhanh"></td>
+	      </tr>
+	      <tr>
+	        <td>Nội dung</td>
+	        <td><textarea rows="5" cols="40" name="noidung"></textarea></td>
+	      </tr>
+	      <tr>
+	        <td>Tình trạng</td>
+	        <td>
+	        	<select name="tinhtrang">
+	        		<option value="1">Kích hoạt</option>
+	        		<option value="0">Ấn</option>
+	        	</select>
+	        </td>
+	      </tr>
+	      <tr>
+	        <td colspan="2"> <input type="submit" name="themsanpham" value="Thêm sản phẩm"></td>
+	      </tr>
+      </form>
+  </table>
