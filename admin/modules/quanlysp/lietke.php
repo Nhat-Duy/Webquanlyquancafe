@@ -1,5 +1,5 @@
 <?php 
-	$sql_lietke_sp = "SELECT * FROM tbl_sanpham ORDER BY id_sanpham DESC";
+	$sql_lietke_sp = "SELECT * FROM tbl_sanpham, tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY id_sanpham DESC";
 	$query_lietke_sp = mysqli_query($mysqli,$sql_lietke_sp);
 ?>
 <p>Liệt kê sản phẩm</p>
@@ -10,6 +10,7 @@
         <td>Hình ảnh</td>
         <td>Giá sản phẩm</td>
         <td>Số lượng</td>
+        <td>Danh mục</td>
         <td>Mã sản phẩm</td>
         <!-- <td>Nội dung</td> -->
         <td>Trạng thái</td>
@@ -23,9 +24,10 @@
      <tr>
      	<td><?php echo $i ?></td>
       <td><?php echo $row['tensanpham'] ?></td>
-      <td><img src="modules/quanlysp/uploads/<?php echo $row['hinhanh'] ?>" width="150px" ></td>
+      <td><img src="modules/quanlysp/uploads/<?php echo $row['hinhanh'] ?>" width="150px" height="150px"></td>
       <td><?php echo $row['giasp'] ?></td>
       <td><?php echo $row['soluong'] ?></td>
+      <td><?php echo $row['tendanhmuc'] ?></td>
       <td><?php echo $row['masp'] ?></td>
       <td><?php if($row['tinhtrang']==1){
           echo 'Kích hoạt';
