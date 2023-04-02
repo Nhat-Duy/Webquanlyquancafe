@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +13,12 @@
     <title>Grid Template for Bootstrap</title>
     
 </head>
+<!-- <?php 
+  session_start();
+  if(!isset($_SESSION['dangnhap'])){
+    header('Location:login.php');
+  }
+?> -->
 <body>
   <div style="height: auto; width: 90%; margin:0 auto;">
     <?php 

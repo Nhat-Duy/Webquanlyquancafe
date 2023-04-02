@@ -1,3 +1,4 @@
+
 <header>
       <nav class="navbar navbar-expand-sm navbar-light">
         <!-- <a class="navbar-brand logo" href="#"><p>PET</p></a> -->
@@ -14,11 +15,15 @@
               <a class="nav-link" href="index.php?action=quanlysp&query=them">Quản lý sản phẩm</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="index.php?action=quanlynhanvien&query=them">Quản lý đơn hàng</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="index.php?action=quanlykhachhang&query=them">Quản lý khách hàng</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?action=quanlynhanvien&query=them">Quản lý nhân viên</a>
             </li>
+            
           </ul>
         </div>
       </nav>

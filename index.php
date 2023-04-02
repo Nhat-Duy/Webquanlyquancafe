@@ -13,12 +13,16 @@
     
 </head>
 <body>
-  
+  <div>
     <?php 
-      include ("pages/sidebar/header.php");
-      include ("pages/sidebar/main.php"); 
-      include ("pages/sidebar/fooder.php"); 
+      include ("admin/config/connect.php");
+      include ("pages/header.php");
+      include ("pages/menu.php"); 
+      include ("pages/main.php"); 
+      include ("pages/footer.php"); 
     ?>
+  </div>
+    
 
   	
 
