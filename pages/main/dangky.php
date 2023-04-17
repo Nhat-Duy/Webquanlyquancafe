@@ -11,7 +11,7 @@
 			
             $_SESSION['dangky'] = $tenkhachhang;
 
-            $_SESSION['Id_khachhang'] = mysqli_insert_id($mysqli);
+            $_SESSION['id_khachhang'] = mysqli_insert_id($mysqli);
 
             echo '<p style="color:green">Bạn đã đăng ký thành công</p>';
             header('Location:index.php?quanly=giohang');
