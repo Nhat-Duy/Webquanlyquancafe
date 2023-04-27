@@ -3,6 +3,7 @@
 	$query_lietke_danhmucsp = mysqli_query($mysqli,$sql_lietke_danhmucsp);
 ?>
 <p>Liệt kê danh mục sản phẩm</p>
+<a class="themdm" href="?action=quanlydanhmucsanpham&query=them">Thêm danh mục mới</a>
 <table class="table table-bordered">
      <tr style="text-align: center;">
      	<td>ID</td>

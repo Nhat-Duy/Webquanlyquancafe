@@ -10,14 +10,18 @@
             $tam = '';
             $query = '';
         }
-        if($tam=='quanlydanhmucsanpham' && $query=='them'){
-            include("modules/quanlydanhmucsp/them.php");
+        if($tam=='quanlydanhmucsanpham' && $query=='lietke'){           
             include("modules/quanlydanhmucsp/lietke.php");
+        }elseif($tam=='quanlydanhmucsanpham' && $query=='them'){
+            include("modules/quanlydanhmucsp/them.php");
         }elseif($tam=='quanlydanhmucsanpham' && $query=='sua'){
             include("modules/quanlydanhmucsp/sua.php");
-        }elseif($tam=='quanlysp' && $query=='them'){
-            include("modules/quanlysp/them.php");
+        }
+        // quan ly san pham
+        elseif($tam=='quanlysp' && $query=='lietke'){
             include("modules/quanlysp/lietke.php");
+        }elseif ($tam=='quanlysp' && $query=='them') {
+            include("modules/quanlysp/them.php");
         }elseif ($tam=='quanlysp' && $query=='sua') {
             include("modules/quanlysp/sua.php");
         }

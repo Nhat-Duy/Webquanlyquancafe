@@ -9,13 +9,13 @@
         <div class="collapse navbar-collapse" id="navbar1">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.php?action=quanlydanhmucsanpham&query=them">Quản lý danh mục sản phẩm</a>
+              <a class="nav-link" href="index.php?action=quanlydanhmucsanpham&query=lietke">Quản lý danh mục sản phẩm</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?action=quanlysp&query=them">Quản lý sản phẩm</a>
+              <a class="nav-link" href="index.php?action=quanlysp&query=lietke">Quản lý sản phẩm</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?action=quanlynhanvien&query=them">Quản lý đơn hàng</a>
+              <a class="nav-link" href="index.php?action=quanlydonhang&query=lietke">Quản lý đơn hàng</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?action=quanlykhachhang&query=them">Quản lý khách hàng</a>

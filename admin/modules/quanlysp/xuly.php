@@ -22,7 +22,7 @@ if(isset($_POST['themsanpham'])){
 	$sql_them = "INSERT INTO tbl_sanpham(tensanpham,masp,giasp,soluong,hinhanh,noidung,tinhtrang,id_danhmuc) VALUE('".$tensanpham."','".$masp."','".$giasp."','".$soluong."','".$hinhanh."','".$noidung."','".$tinhtrang."','".$danhmuc."')";
 	mysqli_query($mysqli,$sql_them);
 	move_uploaded_file($hinhanh_tmp, 'uploads/'.$hinhanh);
-	header('Location:../../index.php?action=quanlysp&query=them');
+	header('Location:../../index.php?action=quanlysp&query=lietke');
 }elseif (isset($_POST['suasanpham'])) {
 #sua
 	if($hinhanh!=''){
@@ -39,7 +39,7 @@ if(isset($_POST['themsanpham'])){
 		$sql_update = "UPDATE tbl_sanpham SET tensanpham='".$tensanpham."', masp='".$masp."', giasp='".$giasp."', soluong='".$soluong."', noidung='".$noidung."', tinhtrang='".$tinhtrang."', id_danhmuc='".$danhmuc."' WHERE id_sanpham='$_GET[idsanpham]'";
 	}
 	mysqli_query($mysqli,$sql_update);
-		header('Location:../../index.php?action=quanlysp&query=them');	
+		header('Location:../../index.php?action=quanlysp&query=lietke');	
 }else {
 	$id=$_GET['idsanpham'];
 	$sql = "SELECT * FROM tbl_sanpham WHERE id_sanpham = '$id' LIMIT 1";
@@ -49,7 +49,7 @@ if(isset($_POST['themsanpham'])){
 	}
 	$sql_xoa = "DELETE FROM tbl_sanpham WHERE id_sanpham='".$id."'";
 	mysqli_query($mysqli,$sql_xoa);
-	header('Location:../../index.php?action=quanlysanpham&query=them');
+	header('Location:../../index.php?action=quanlysanpham&query=lietke');
 
 }
 

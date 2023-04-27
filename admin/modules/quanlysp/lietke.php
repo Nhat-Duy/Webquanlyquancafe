@@ -3,6 +3,7 @@
 	$query_lietke_sp = mysqli_query($mysqli,$sql_lietke_sp);
 ?>
 <p>Liệt kê sản phẩm</p>
+<a class="themdm" href="?action=quanlysp&query=them">Thêm sản phẩm mới</a>
 <table class="table table-bordered">
      <tr style="text-align: center;">
      	<td>ID</td>

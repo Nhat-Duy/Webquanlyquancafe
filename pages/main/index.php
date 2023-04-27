@@ -1,4 +1,5 @@
 
+
 <div id="carouselExampleCaptions" class="carousel slide mt-1" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -33,20 +34,20 @@
     <div id="main-sp" class="row text-center padding">
       <div class="col-xs-12 col-sm-6 col-md-4">
         <a class="ctiet" href="index.php?quanly=chitietsanpham&id=22">
-          <img src="images/1.jpg">
-          <h3>Cà Phê</h3>
+          <img style="width: 400px; height: 400px;" src="images/trasua1.jpg">
+          <h3>Trà Sữa Trân Châu Đường Đen</h3>
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
         <a class="ctiet" href="index.php?quanly=chitietsanpham&id=23">
-          <img src="images/1.jpg">
-          <h3>Trà Sữa</h3>
+          <img style="width: 400px; height: 400px;" src="images/trasua2.png">
+          <h3>Trà Sữa Phô Mai Tươi</h3>
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
         <a class="ctiet" href="index.php?quanly=chitietsanpham&id=2">
-          <img src="images/1.jpg">
-          <h3>Hồng Trà</h3>
+          <img style="width: 400px; height: 400px;" src="images/trasua1.jpg">
+          <h3>Trà sữa thái xanh</h3>
         </a>
       </div>
     </div>
