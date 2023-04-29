@@ -4,7 +4,7 @@
 ?>
 <p>Liệt kê danh mục sản phẩm</p>
 <a class="themdm" href="?action=quanlydanhmucsanpham&query=them">Thêm danh mục mới</a>
-<table class="table table-bordered">
+<table class="table table-striped">
      <tr style="text-align: center;">
      	<td>ID</td>
       	<td>Tên danh mục</td>

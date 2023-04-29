@@ -18,7 +18,7 @@
               <a class="nav-link" href="index.php?action=quanlydonhang&query=lietke">Quản lý đơn hàng</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?action=quanlykhachhang&query=them">Quản lý khách hàng</a>
+              <a class="nav-link" href="index.php?action=quanlykhachhang&query=lietke">Quản lý khách hàng</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?action=quanlynhanvien&query=them">Quản lý nhân viên</a>

@@ -25,6 +25,15 @@
         }elseif ($tam=='quanlysp' && $query=='sua') {
             include("modules/quanlysp/sua.php");
         }
+        // quan ly don hang
+        elseif ($tam=='quanlydonhang' && $query=='lietke') {
+            include("modules/quanlydonhang/lietke.php");
+        }elseif ($tam=='donhang' && $query=='xemdonhang') {
+            include("modules/quanlydonhang/xemdonhang.php");
+        }
+        elseif ($tam=='quanlykhachhang' && $query=='lietke') {
+            include("modules/quanlykhachhang/lietke.php");
+        }
         else{
             include("modules/dashboard.php");
         }

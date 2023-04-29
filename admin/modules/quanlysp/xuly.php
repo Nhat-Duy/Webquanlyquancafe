@@ -49,7 +49,7 @@ if(isset($_POST['themsanpham'])){
 	}
 	$sql_xoa = "DELETE FROM tbl_sanpham WHERE id_sanpham='".$id."'";
 	mysqli_query($mysqli,$sql_xoa);
-	header('Location:../../index.php?action=quanlysanpham&query=lietke');
+	header('Location:../../index.php?action=quanlysp&query=lietke');
 
 }
 

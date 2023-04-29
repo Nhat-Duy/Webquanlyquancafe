@@ -1,6 +1,6 @@
 <p>Thêm sản phẩm</p>
            
-  <table class="table table-bordered">
+  <table class="table table-bordered" >
     	<form method="POST" action="modules/quanlysp/xuly.php" enctype="multipart/form-data">
 	      <tr>
 	        <td>Tên sản phẩm</td>

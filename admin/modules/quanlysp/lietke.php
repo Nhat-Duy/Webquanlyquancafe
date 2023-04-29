@@ -4,7 +4,7 @@
 ?>
 <p>Liệt kê sản phẩm</p>
 <a class="themdm" href="?action=quanlysp&query=them">Thêm sản phẩm mới</a>
-<table class="table table-bordered">
+<table class="table table-striped">
      <tr style="text-align: center;">
      	<td>ID</td>
       	<td>Tên sản phẩm</td>
